@@ -17,6 +17,12 @@ const divideBy2 = numbers.forEach((num) => {
   console.log(num / 2)
 });
 
+//Walkthrough forEach doesn't return anything, so you don't need to assign it into a fxn.
+
+numbers.forEach((num) => {
+  console.log(num / 2)
+});
+
 ////////// PROBLEM 2 //////////
 
 /* 
